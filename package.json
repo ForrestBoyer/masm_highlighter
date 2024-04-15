@@ -4,6 +4,7 @@
   "description": "Basic syntax highlighter for the masm assembler language",
   "publisher": "Forrest Boyer",
   "version": "1.0.0",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.82.0"
   },
