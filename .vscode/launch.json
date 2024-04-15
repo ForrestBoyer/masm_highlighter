@@ -10,7 +10,10 @@
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}"
+                "--extensionDevelopmentPath=${workspaceFolder}",
+                "--folder-uri", "vscode-remote://localhost/${workspaceFolder}",
+                "--reuse-window",
+                "${workspaceFolder}/example.asm"
             ]
         }
     ]

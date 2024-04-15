@@ -10,13 +10,19 @@
 		},
 		{
 			"include": "#constants"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#labels"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.masm",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b([lL][oO][dD][dD]|[sS][tT][oO][dD]|[aA][dD][dD][dD]|[sS][uU][bB][dD]|[jJ][pP][oO][sS]|[jJ][zZ][eE][rR]|[jJ][uU][mM][pP]|[lL][oO][cC][oO]|[lL][oO][dD][lL]|[sS][tT][oO][lL]|[aA][dD][dD][lL]|[sS][uU][bB][lL]|[jJ][nN][eE][gG]|[jJ][nN][zZ][eE]|[cC][aA][lL][lL]|[pP][sS][hH][iI]|[pP][oO][pP][iI]|[pP][uU][sS][hH]|[pP][oO][pP]|[rR][eE][tT][nN]|[sS][wW][aA][pP]|[iI][nN][sS][pP]|[dD][eE][sS][pP]|[mM][uU][lL][tT]|[dD][iI][vV]|[hH][aA][lL][tT])\\b"
 			}]
 		},
 		"strings": {
@@ -31,8 +37,16 @@
 			]
 		},
 		"constants": {
-			"name": "constant.numeric",
-			"match": "\\d+"
+			"name": "constant.numeric.masm",
+			"match": "\\b-?\\d+(\\.\\d+)?\\b"
+		},
+		"comments": {
+			"name": "comment.line.masm",
+			"match": ";.*$"
+		},
+		"labels": {
+			"name": "variable.other.masm",
+			"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*:\\b"
 		}
 	},
 	"scopeName": "source.masm"

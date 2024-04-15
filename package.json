@@ -3,7 +3,7 @@
   "displayName": "MASM Syntax Highlighter",
   "description": "Basic syntax highlighter for the masm assembler language",
   "publisher": "Forrest Boyer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.82.0"
   },
