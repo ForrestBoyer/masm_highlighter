@@ -1,0 +1,25 @@
+{
+  "name": "MASM Syntax Highlighter",
+  "displayName": "MASM Syntax Highlighter",
+  "description": "Basic syntax highlighter for the masm assembler language",
+  "publisher": "Forrest Boyer",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "masm",
+      "extensions": [".asm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "masm",
+      "scopeName": "source.masm",
+      "path": "./syntaxes/masm.tmlanguage.json"
+    }]
+  }
+}
