@@ -1,10 +1,10 @@
 {
-  "name": "masm_syntax_highlighter",
+  "name": "masm-syntax-highlighter",
   "displayName": "MASM Syntax Highlighter",
   "description": "Basic syntax highlighter for the masm assembler language",
-  "publisher": "Forrest Boyer",
+  "publisher": "ForrestBoyer",
   "version": "1.0.0",
-  "icon": "./images/logo.png",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.82.0"
   },
