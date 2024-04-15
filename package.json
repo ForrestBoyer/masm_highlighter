@@ -1,5 +1,5 @@
 {
-  "name": "MASM Syntax Highlighter",
+  "name": "masm_syntax_highlighter",
   "displayName": "MASM Syntax Highlighter",
   "description": "Basic syntax highlighter for the masm assembler language",
   "publisher": "Forrest Boyer",
