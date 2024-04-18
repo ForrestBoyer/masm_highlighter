@@ -1,7 +1,7 @@
 {
-  "name": "masm-syntax-highlighter",
-  "displayName": "MASM Syntax Highlighter",
-  "description": "Basic syntax highlighter for the masm assembler language",
+  "name": "mic1-syntax-highlighter",
+  "displayName": "MIC1 Syntax Highlighter",
+  "description": "Basic syntax highlighter for the mic1 assembler language",
   "publisher": "ForrestBoyer",
   "version": "1.0.0",
   "icon": "images/logo.png",
@@ -13,14 +13,14 @@
   ],
   "contributes": {
     "languages": [{
-      "id": "masm",
+      "id": "mic1",
       "extensions": [".asm"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
-      "language": "masm",
-      "scopeName": "source.masm",
-      "path": "./syntaxes/masm.tmlanguage.json"
+      "language": "mic1",
+      "scopeName": "source.mic1",
+      "path": "./syntaxes/mic1.tmlanguage.json"
     }]
   }
 }

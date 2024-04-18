@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "MASM Assembler Language",
+	"name": "MIC1 Assembler Language",
 	"patterns": [
 		{
 			"include": "#comments"
@@ -21,33 +21,33 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.masm",
+				"name": "keyword.control.mic1",
 				"match": "\\b([lL][oO][dD][dD]|[sS][tT][oO][dD]|[aA][dD][dD][dD]|[sS][uU][bB][dD]|[jJ][pP][oO][sS]|[jJ][zZ][eE][rR]|[jJ][uU][mM][pP]|[lL][oO][cC][oO]|[lL][oO][dD][lL]|[sS][tT][oO][lL]|[aA][dD][dD][lL]|[sS][uU][bB][lL]|[jJ][nN][eE][gG]|[jJ][nN][zZ][eE]|[cC][aA][lL][lL]|[pP][sS][hH][iI]|[pP][oO][pP][iI]|[pP][uU][sS][hH]|[pP][oO][pP]|[rR][eE][tT][nN]|[sS][wW][aA][pP]|[iI][nN][sS][pP]|[dD][eE][sS][pP]|[mM][uU][lL][tT]|[dD][iI][vV]|[hH][aA][lL][tT])\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.masm",
+			"name": "string.quoted.double.mic1",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.masm",
+					"name": "constant.character.escape.mic1",
 					"match": "\\\\."
 				}
 			]
 		},
 		"constants": {
-			"name": "constant.numeric.masm",
+			"name": "constant.numeric.mic1",
 			"match": "\\b-?\\d+(\\.\\d+)?\\b"
 		},
 		"comments": {
-			"name": "comment.line.masm",
+			"name": "comment.line.mic1",
 			"match": ";.*$"
 		},
 		"labels": {
-			"name": "variable.other.masm",
+			"name": "variable.other.mic1",
 			"match": "[a-zA-Z_][a-zA-Z0-9_]*:"
 		}
 	},
-	"scopeName": "source.masm"
+	"scopeName": "source.mic1"
 }
