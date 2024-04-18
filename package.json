@@ -1,9 +1,10 @@
 {
-  "name": "mic1-syntax-highlighter",
+  "name": "masm-syntax-highlighter",
   "displayName": "MIC1 Syntax Highlighter",
   "description": "Basic syntax highlighter for the mic1 assembler language",
   "publisher": "ForrestBoyer",
-  "version": "1.0.0",
+  "keywords": ["mic1", "masm", "UML", "Syntax Highlighter", "COMP.3050"],
+  "version": "1.0.2",
   "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.82.0"
